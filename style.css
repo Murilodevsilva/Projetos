@@ -322,6 +322,7 @@ li{
     gap: 20px;
     padding: 20px;
     margin-left: 5%;
+    overflow: hidden;
 }
 
 .image-slider img {
