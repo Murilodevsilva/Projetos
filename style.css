@@ -24,14 +24,14 @@ body {
 }
 .area2{
     width: 100%;
-    height: 1280px;
+    height: 960px;
     background-image: url(./assets/bg-roleta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 3px solid #0BD92A;
 }
 .h1-bio{
-    padding-top:25% ;
+    padding-top:5% ;
 }
 .area3{
     width: 100%;
@@ -39,6 +39,9 @@ body {
     background-image: url(./assets/bg-roleta.jpg);
     background-size: cover;
 
+}
+.area-card-pai{
+    height: 800px;
 }
 .area4{
     width: 100%;
@@ -53,6 +56,9 @@ body {
     background-size: auto;
     
 
+}
+.div-area4{
+    margin-top: -10% !important;
 }
 .list-item{
     font-family: "Montserrat", sans-serif;
@@ -325,11 +331,10 @@ li{
     display: flex;
     overflow-x: auto;
     gap: 20px;
-    padding: 20px;
     margin-left: 5%;
     -ms-overflow-style: none;  
     scrollbar-width: none;  
- 
+    margin-top: -10%;
 }
 ::-webkit-scrollbar { display: none;}
 
@@ -424,7 +429,6 @@ li{
     }
     .h1-area4{
         font-size: 30px !important;
-        margin-top: -35%;
         margin-left: 10% !important;
         width: 350px;
     
