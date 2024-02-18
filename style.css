@@ -319,9 +319,15 @@ li{
     }
     .paragrafo{
         width: auto;
+        height: auto;
         margin-left: 25px;
         font-size: 12px;
         margin-top: 5%;
+    }
+    .p-paragrafo{
+        font-size: 18px;
+        width: auto;
+        height: auto;
     }
     .div-button-bio{
         padding-left: 30%;
