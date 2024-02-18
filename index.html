@@ -329,19 +329,24 @@
 </div>
 <div style="width: 100%; height: 100px; background-color: #0BD92A;"> <h2 style="font-size: 25px; font-weight: 700; font-family: Roboto, Sans-serif; padding-top: 20px;">Todos os direitos reservados @2023</h2></div>
 <script>
-   $('.menu').click(function() {
+    $(document).ready(function() {
+    
+    $('.resposta').hide();
+    $('.icone').text('+');
+
+    $('.menu').click(function() {
         var icone = $(this).find('.icone');
         var resposta = $(this).next();
 
-        // Fecha todas as respostas e muda todos os ícones para "+"
         $('.resposta').not(resposta).slideUp('slow');
         $('.icone').not(icone).text('+');
 
-        // Abre ou fecha a resposta clicada e muda o ícone correspondente
         resposta.slideToggle('slow', function() {
             icone.text(resposta.is(':visible') ? '-' : '+');
         });
     });
+});
+
 </script>
 </body>
 </html>
