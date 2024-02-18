@@ -448,8 +448,21 @@ li{
     .div-button-card{
         padding-top: 130%;
     }
+    .menu, .list-item{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
     .list-item{
         height: 90px;
+        display: block;
+        width: 102% !important;
+        margin: 0 auto !important;
+        margin-left: -7% !important;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.178);
+        border: 1px solid white;
+        padding: 15px;
+        font-size: 12px !important;
     }
     h1{
         font-size: 24px;
@@ -460,11 +473,7 @@ li{
         width: 400px !important;
         margin-left: 7% !important;
     }
-    .list-item{
-        font-size: 12px !important;
-        margin-left: -7.2% !important;
-        width: 400px !important;
-    }
+    
     .h1-questions{
         font-size: 30px !important;
     }
