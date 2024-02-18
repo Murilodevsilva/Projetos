@@ -320,11 +320,11 @@ li{
     .paragrafo{
         width: auto;
         margin-left: 25px;
-        font-size: 18px;
+        font-size: 12px;
         margin-top: 5%;
     }
     .div-button-bio{
-        padding-left: 32%;
+        padding-left: 30%;
     }
     .h1-bio{
         padding-right: 10%;
@@ -336,7 +336,7 @@ li{
         height: 960px;
     }
     .div-button-card{
-        padding-top: 120%;
+        padding-top: 125%;
     }
     .list-item{
         height: 90px;
