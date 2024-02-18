@@ -402,6 +402,7 @@ li{
     }
     .area4{
         height: 550px;
+        
     }
     .area2{
         height: 960px;
@@ -416,7 +417,8 @@ li{
     .h1-area4{
         font-size: 30px !important;
         margin-top: -35%;
-        margin-left: 5%;
+        margin-left: 10% !important;
+        width: 350px;
     
 
     }
