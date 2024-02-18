@@ -449,6 +449,7 @@ li{
         padding-top: 130%;
     }
     .menu, .list-item{
+        width: 90% !important;
 
         margin: 0 auto !important;
     }
