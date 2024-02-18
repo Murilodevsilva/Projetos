@@ -322,8 +322,11 @@ li{
     gap: 20px;
     padding: 20px;
     margin-left: 5%;
-    ::-webkit-scrollbar { display: none;}
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+ 
 }
+::-webkit-scrollbar { display: none;}
 
 .image-slider img {
     flex: 0 0 auto;
