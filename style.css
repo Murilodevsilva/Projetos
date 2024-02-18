@@ -28,9 +28,8 @@ body {
     background-image: url(./assets/bg-roleta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom-width: 3px;
-    border-style: solid;
-    border-color: #0BD92A;
+    border-bottom: 3px solid #0BD92A;
+    
 
 }
 .area3{
