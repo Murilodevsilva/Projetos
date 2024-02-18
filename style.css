@@ -56,7 +56,7 @@ body {
 .area6{
     width: 100%;
     height: 720px;
-    background-image: url(./assets/bg-roleta.jpg);
+    background-image: url(./assets/bg.png);
     background-size: cover;
     
 
@@ -163,7 +163,7 @@ h1 {
     padding: 50px;
     margin: 15px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.158);
+    background-color: rgba(255, 255, 255, 0.062);
 
 }
 .titulo-card{
@@ -177,6 +177,14 @@ h1 {
     color: white;
     font-family: "Roboto", Sans-serif;
     margin-top: 25px;
+}
+.fa-question1{
+    width: 50px; 
+    height: 50px; 
+    border: 5px solid white; 
+    border-radius: 30px; 
+    margin-left: 40%;
+    margin-bottom: 10px;
 }
 .elemento{
       
@@ -257,6 +265,20 @@ li{
     li{
         height: 30px;
     }
+    .area5{
+        background-size: contain;
+        background-position: top center;
+        background-position-x: center;
+        background-position-y: top;
+        background-image: url(assets/celularbloco5_1024x1024.png);
+        height: 900px;
+        background-repeat: no-repeat;
+        background-color: #000000;
+        font-size: 18px;
+    }
+    .h1-bio{
+        font-size: 30px;
+    }
 }
 
 /* Media query for screens between 600px and 1200px */
@@ -311,7 +333,12 @@ li{
 
 @media (max-width: 600px) {
     .image-slider img {
-        width: 100%;
+        width: 50%;
+
+        margin-bottom: 30% !important;
+    }
+    .div-area4{
+        height: 100px !important;
     }
     .button{
         
@@ -327,9 +354,11 @@ li{
         margin-top: 5%;
     }
     .p-paragrafo{
-        font-size: 18px;
+        font-size: 12px !important;
         width: auto;
         height: auto;
+        text-align: center;
+        
     }
     .div-button-bio{
         width: 100%;
@@ -337,31 +366,116 @@ li{
     }
     .h1-bio{
         padding-right: 10%;
+        font-size: 30px !important;
+        padding-top: 90% !important;
     }
     .area{
-        height: 900px;
+        height: 800px;
+        background-image: url(assets/bloco1celular.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        background-color: #000000;
+        margin-top: -30%;
+    }
+    .fa-solid{
+        font-size: 30px !important;
+    }
+    .fa-question1{
+        width: 35px !important;
+        height: 35px !important;
+        border-radius: 20px;
+        margin-left: 45%;
+        border: 2px solid white;
+    }
+    .fa-money-bill {
+        font-size: 30px !important;
+        margin-bottom: 3%;
+    }
+    .cards{
+        width: 300px !important;
+        height: 200px;
     }
     .area4{
-        height: 1280px;
+        height: 550px;
     }
     .area2{
         height: 960px;
     }
+    .area3{
+        height: 500px;
+        width: 100% !important;   
+    }
+    .area5{
+        height: 700px;
+    }
+    .h1-area4{
+        font-size: 30px !important;
+        margin-top: -35%;
+        margin-left: 5%;
+    
+
+    }
+    .desc4-div{
+        width: 90% !important;
+        margin-left: 4% !important;
+        margin-top: 5% !important;
+    }
+    .titulo-area4{
+        margin-top: -30%;
+        font-size: 30px;
+    }
+    .desc-area4{
+        width: 300px !important;
+        margin: 0 !important;
+        font-size: 12px !important;
+    }
+    .segundoH{
+        font-size: 30px;
+        margin-top: -25%;
+        margin-bottom: 5%;
+        letter-spacing: 2px;
+    }
     .div-button-card{
-        padding-top: 125%;
+        padding-top: 135%;
     }
     .list-item{
         height: 90px;
+    }
+    h1{
+        font-size: 24px;
+        padding-top: 40%;
+    }
+    .menu{
+        font-size: 12px !important;
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+    .list-item{
+        font-size: 12px !important;
+        margin-left: -12.3% !important;
+        width: 349px !important;
+    }
+    .h1-questions{
+        font-size: 30px !important;
+    }
+    .area6{
+        height: 650px !important;
+    }
+    .footer{
+        font-size: 12px !important;
     }
 }
 .area-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 .cards {
     width: 100%;
     margin: 10px;
+    font-size: 12px;
 }
 
 @media (min-width: 600px) {
@@ -371,7 +485,10 @@ li{
     .button{
         width: 80%;
     }
-    
+    .h1-bio{
+        padding-right: 10%;
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 900px) {
@@ -380,6 +497,10 @@ li{
     }
     .button{
         width: 80%;
+    }
+    .h1-bio{
+        padding-right: 10%;
+        font-size: 30px;
     }
    
 }
