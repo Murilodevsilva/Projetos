@@ -31,13 +31,14 @@ body {
     border-bottom: 3px solid #0BD92A;
 }
 .h1-bio{
-    padding-top:50% ;
+    padding-top:25% ;
 }
 .area3{
     width: 100%;
     height: 900px;
     background-image: url(./assets/bg-roleta.jpg);
     background-size: cover;
+
 }
 .area4{
     width: 100%;
