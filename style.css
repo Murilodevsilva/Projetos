@@ -332,7 +332,7 @@ li{
     .div-button-bio{
         width: 100%;
         padding-top: 18%;
-        padding-left: 28%;
+        padding-left: -28%;
     }
     .h1-bio{
         padding-right: 10%;
