@@ -336,6 +336,9 @@ li{
 }
 
 @media (max-width: 600px) {
+    *{
+    box-sizing: border-box;
+    }
     .image-slider img {
         width: 50%;
 
