@@ -459,9 +459,9 @@ li{
     .list-item{
         height: 80px !important;
         display: block;
-        width: 104% !important;
+        width: 105% !important;
         margin: 0 auto !important;
-        margin-left: -8% !important;
+        margin-left: -9% !important;
         color: white;
         background-color: rgba(0, 0, 0, 0.178);
         border: 1px solid white;
