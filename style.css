@@ -338,6 +338,9 @@ li{
     .h1-bio{
         padding-right: 10%;
     }
+    .area{
+        height: 900px;
+    }
     .area4{
         height: 1280px;
     }
