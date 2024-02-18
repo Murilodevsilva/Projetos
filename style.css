@@ -314,7 +314,10 @@ li{
         width: 100%;
     }
     .button{
-        width: 85%;
+        
+            font-size: 16px;
+            padding: 16px 16px;
+        
     }
     .paragrafo{
         width: auto;
