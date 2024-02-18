@@ -330,6 +330,7 @@ li{
         height: auto;
     }
     .div-button-bio{
+        width: auto;
         padding-top: 18%;
         padding-left: 28%;
     }
