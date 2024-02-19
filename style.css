@@ -364,7 +364,6 @@ li{
         
     }
     .paragrafo{
-        width: auto;
         height: auto;
         margin-left: 25px;
         font-size: 12px;
@@ -372,13 +371,12 @@ li{
     }
     .p-paragrafo{
         font-size: 12px !important;
-        width: auto;
         height: auto;
         text-align: center;
         
     }
     .div-button-bio{
-        width: 100%;
+        width: 90%;
         padding-top: 18%;
     }
     .h1-bio{
