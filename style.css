@@ -364,6 +364,7 @@ li{
         
     }
     .paragrafo{
+        width: auto;
         height: auto;
         margin-left: 25px;
         font-size: 12px;
@@ -371,6 +372,7 @@ li{
     }
     .p-paragrafo{
         font-size: 12px !important;
+        width: auto;
         height: auto;
         text-align: center;
         
