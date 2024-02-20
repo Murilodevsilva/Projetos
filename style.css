@@ -343,6 +343,7 @@ li{
         margin-top: 40%;
         margin-bottom: 30% !important;
     }
+   
     .div-area4{
         height: 100px !important;
     }
@@ -373,11 +374,12 @@ li{
     .h1-bio{
         font-size: 30px !important;
         padding-top: 90% !important;
+        width: 90% !important;
     }
     .area{
         height: 800px;
         background-image: url(assets/bloco1celular.png);
-        background-size: 150%;
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: 100% 50%;
         background-color: #000000;
