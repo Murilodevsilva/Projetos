@@ -464,7 +464,7 @@ li{
         background-size: 190%;
         
         background-repeat: no-repeat;
-        background-position: 100% 300%, left;
+        background-position: 100% 150%, left;
         background-color: #000000;
         margin-top: -20%;
         backdrop-filter: blur(8px);
