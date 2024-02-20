@@ -24,7 +24,7 @@ body {
 }
 .area2{
     width: 100%;
-    height: 960px;
+    height: 860px;
     background-image: url(./assets/bg-roleta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,6 +88,7 @@ h1 {
 .header-color-green{
     color:#09e138;
     margin: 0;
+    font-weight: 700;
 }
 
 
@@ -100,7 +101,7 @@ h1 {
 }
 .text-style{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
     font-family: "Raleway", sans-serif;
@@ -108,8 +109,13 @@ h1 {
     text-align: center;
 }
 .text-stream{
-    width: 100%;
-    margin-top: 30px;
+    width: 950px;
+    margin-top: 40px;
+    margin-left: 8%;
+    line-height: 22px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 .button{
     font-family: "Roboto", Sans-serif;
@@ -120,7 +126,7 @@ h1 {
     color: #000000;
     background-color: transparent;
     background-image: linear-gradient(90deg, #067B1C 0%, #14FE6B 50%);
-    padding: 25px 60px 25px 60px;
+    padding: 20px 50px 20px 50px;
     border-radius: 5px;
 
 }
@@ -159,23 +165,25 @@ h1 {
 .segundoH{
     font-size: 55px;
     font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+    margin-left: -5%;
 
 }
 .area-card{
     display: flex;
     height: 100px;
-    width: auto;
+    width: 85%;
     border-width: 2px;
+    margin-left: 8%;
+    margin-top: -8%;
     
 }
 .cards{
-    width: 350px;
+    width: 50px;
     border-color: #0BD92A;
-    margin:0 ;
     border: 3px solid #0BD92A;
-    height: 300px;
-    padding: 50px;
-    margin: 15px;
+    height: 250px;
+    padding: 30px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.062);
 
@@ -191,6 +199,8 @@ h1 {
     color: white;
     font-family: "Roboto", Sans-serif;
     margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
 }
 .fa-question1{
     width: 50px; 
@@ -245,8 +255,20 @@ li{
 .p-paragrafo{
     color: white; font-size: 22px; font-family: "Montserrat", sans-serif; text-align: left; 
 }
+.title{
+    font-size: 35px;
+    letter-spacing: 4px;
+    width: 870px;
+    margin-left: -5.5%;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 5px;
+    margin-bottom: -3%;
+}
+
 /* Media query for screens smaller than 600px */
 @media only screen and (max-width: 600px) {
+   
     
     h1 {
         font-size: 30px;
@@ -298,7 +320,33 @@ li{
 
 /* Media query for screens between 600px and 1200px */
 @media only screen and (max-width: 1920px) {
-
+    .titulo-area4{
+        margin-left: -5%;
+        margin-top: -5%;
+    }
+   .desc4-div{
+    padding-left: 2%;
+   }
+    .desc-area4{
+        font-size: 30px;
+        margin-top: -60%;
+    }
+.segundoH{
+    font-size: 55px !important;
+    padding-left: -15% !important;
+}
+    .text-stream {
+        margin-left: 18%;
+    }
+.title{
+    margin-left: 10%;
+}
+.h1-area4{
+    font-size: 60px !important;
+    margin-left: -5%;
+    margin-top: -10%;
+    margin-bottom: -5%;
+}
     .h1-bio{
         padding-left: 38% !important;
         letter-spacing: 3px !important;
@@ -311,7 +359,7 @@ li{
     height: 90%;
 }
 .area3{
-    height: 1024px;
+    height: 900px;
 }
 .h1-questions{
     padding-bottom: 5%;
@@ -328,6 +376,7 @@ li{
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    margin-left: 5%;
    
 }
 .responsive-img {
@@ -427,7 +476,7 @@ li{
         margin-top: 5%;
     }
     .p-paragrafo{
-        font-size: 12px !important;
+        font-size: 16px !important;
         width: auto;
         height: auto;
         text-align: center;
@@ -435,7 +484,7 @@ li{
     }
     .div-button-bio{
         width: 90%;
-        padding-top: 18%;
+        padding-top: 3%;
     }
     .h1-bio{
         font-size: 30px !important;
@@ -495,11 +544,11 @@ li{
         height: 960px;
     }
     .area3{
-        height: 650px;
+        height: 550px;
         width: 100% !important;   
     }
     .area5{
-        height: 700px;
+        height: 800px;
     }
     .h1-area4{
         font-size: 30px !important;
@@ -521,7 +570,7 @@ li{
     .desc-area4{
         width: 300px !important;
         margin: 0 !important;
-        font-size: 12px !important;
+        font-size: 18px !important;
     }
     .segundoH{
         font-size: 30px;
