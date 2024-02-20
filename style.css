@@ -508,7 +508,7 @@ li{
         font-weight: 700;
     }
     .area{
-        height: 850px;
+        height: 900px;
         background-image: url(assets/bloco1celular.png);
         background-size: 190%;
         
@@ -624,6 +624,13 @@ li{
     }
     .footer{
         font-size: 12px !important;
+    }
+    .text-stream{
+        margin-left: 5%;
+        width: 80%;
+    }
+    .text-style{
+        font-size: 18px;
     }
 }
 .area-card {
