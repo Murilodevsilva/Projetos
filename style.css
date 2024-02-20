@@ -297,7 +297,7 @@ li{
 @media only screen and (max-width: 1920px) {
 
 .area4{
-    height: 90%;
+    height: 1300px;
 }
 .area{
     height: 90%;
@@ -320,19 +320,78 @@ li{
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    justify-content: space-between;
    
 }
 .responsive-img {
     flex: 0 0 auto;
-    width: 50%;
+    width: 300px;
+    height: auto;
     scroll-snap-align: start;
     border: 3px solid #0BD92A;
     border-radius: 20px;
     margin-left: 5%;
 }
 }
+@media only screen and (min-width: 1920px) {
 
+    .area4{
+        height: 1900px;
+    }
+    .area{
+        height: 1900px;
+    }
+    .area3{
+        height: 1300px;
+    }
+    .h1-questions{
+        padding-bottom: 5%;
+    }
+    .menu{
+        padding-left: 2% !important;
+    }
+        .h1-bio{
+        
+        }
+    ::-webkit-scrollbar { display: none;}
+    
+    .image-slider {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+       
+    }
+    .area5{
+        background-size: cover;
+       
+    }
+    .responsive-img {
+        flex: 0 0 auto;
+        width: 500px;
+        height: auto;
+        scroll-snap-align: start;
+        border: 3px solid #0BD92A;
+        border-radius: 20px;
+        margin-left: 5%;
+    }
+    .list-item{
+        height: 80px !important;
+        display: block;
+        width: 82.4% !important;
+        margin: 0 auto !important;
+        margin-left: 5.3% !important;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.178);
+        border: 1px solid white;
+        padding: 15px;
+        font-size: 12px !important;
+        font-family: "Montserrat", sans-serif; 
+        font-weight: 700;
+        
+    }
+    .area6 {
+        height: 1024px;
+    }
+}
 @media (max-width: 600px) {
     *{
     box-sizing: border-box;
@@ -504,6 +563,7 @@ li{
     margin: 10px;
     font-size: 12px;
 }
+
 
 @media (min-width: 600px) {
     .cards {
