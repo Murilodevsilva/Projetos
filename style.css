@@ -12,7 +12,7 @@ body {
     
     height: auto;
     align-items: center;
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3);
+    
 }
 .area{
     width: 100%;
@@ -450,7 +450,11 @@ li{
         width: 90% !important;
         font-weight: 700;
         margin: 0 auto !important;
+       
         
+    }
+    .menu{
+        padding-left: 5% !important;
     }
     .list-item{
         height: 80px !important;
