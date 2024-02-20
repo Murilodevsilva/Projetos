@@ -316,11 +316,20 @@ li{
     }
 ::-webkit-scrollbar { display: none;}
 
-.image-slider img {
-    width: 22%;
+.image-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    justify-content: space-between;
+   
+}
+.responsive-img {
+    flex: 0 0 auto;
+    width: 50%;
+    scroll-snap-align: start;
     border: 3px solid #0BD92A;
     border-radius: 20px;
-    margin-bottom: 20%;
+    margin-left: 5%;
 }
 }
 
@@ -329,6 +338,7 @@ li{
     box-sizing: border-box;
     }
     .image-slider img {
+        
         width: 50%;
         margin-top: 40%;
         margin-bottom: 30% !important;
