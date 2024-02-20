@@ -247,6 +247,7 @@ li{
 }
 /* Media query for screens smaller than 600px */
 @media only screen and (max-width: 600px) {
+    
     h1 {
         font-size: 30px;
         padding-top: 5%;
@@ -357,9 +358,7 @@ li{
     .menu{
         padding-left: 2% !important;
     }
-        .h1-bio{
         
-        }
     ::-webkit-scrollbar { display: none;}
     
     .image-slider {
@@ -440,8 +439,12 @@ li{
     }
     .h1-bio{
         font-size: 30px !important;
-        padding-top: 90% !important;
-        width: 90% !important;
+        padding-top: 80% !important;
+        padding-bottom: 10%;
+        margin-left: -20% !important;
+        display: flex;
+        flex-direction: row;
+        width: 440px !important;
     }
     .area{
         height: 800px;
