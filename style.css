@@ -424,6 +424,7 @@ li{
         position: absolute;
         padding-left: 2%;
         padding-top: 15%;
+        padding-bottom: 5% !important;
     }
     .desc4-div{
         width: 90% !important;
